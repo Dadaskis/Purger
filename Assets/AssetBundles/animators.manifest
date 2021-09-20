@@ -1,0 +1,93 @@
+ManifestFileVersion: 0
+CRC: 687595817
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8a957643c807a3d18fc6e4a3ab0cf40d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9e9ecbbb774617c5f40f4393a9b5f3a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 221
+  Script: {instanceID: 0}
+- Class: 319
+  Script: {instanceID: 0}
+Assets:
+- Assets/Animators/NPCSoldier0Hands.mask
+- Assets/Animators/Placeholders/Firearm/Idle.anim
+- Assets/Animators/Placeholders/Firearm/__NULL.anim
+- Assets/Animators/Materials/Base_Body_diffuse.mat
+- Assets/Animators/NPCSoldier0Legs.mask
+- Assets/Animators/Placeholders/Firearm/IdleSight.anim
+- Assets/Animators/Placeholders/NPCSoldier/CrouchStay.anim
+- Assets/Animators/Placeholders/Firearm/TakeUp.anim
+- Assets/Animators/Placeholders/NPCSoldier/LookUpRight.anim
+- Assets/Animators/NPCSoldier.controller
+- Assets/Animators/Placeholders/NPCSoldier/CrouchStart.anim
+- Assets/Animators/Materials/No Name.mat
+- Assets/Animators/Placeholders/NPCSoldier/LookUp.anim
+- Assets/Animators/Placeholders/Firearm/Shoot.anim
+- Assets/Animators/WeaponRifleOverride.overrideController
+- Assets/Animators/Placeholders/Firearm/IdleRun.anim
+- Assets/Animators/NPCSoldier0WalkAnims.fbx
+- Assets/Animators/NPCSoldier0Spine.mask
+- Assets/Animators/Placeholders/NPCSoldier/LookLeft.anim
+- Assets/Animators/Placeholders/NPCSoldier/LookDown.anim
+- Assets/Animators/Placeholders/Firearm/Climbing.anim
+- Assets/Animators/WeaponShotgun.controller
+- Assets/Animators/Placeholders/Firearm/Reload.anim
+- Assets/Animators/Placeholders/NPCSoldier/LookUpLeft.anim
+- Assets/Animators/Placeholders/NPCSoldier/WTakeUp.anim
+- Assets/Animators/Placeholders/NPCSoldier/WalkRight.anim
+- Assets/Animators/NPCSoldierOverride.overrideController
+- Assets/Animators/Placeholders/NPCSoldier/LookStreight.anim
+- Assets/Animators/Materials/Material.mat
+- Assets/Animators/Placeholders/Firearm/ReloadFull.anim
+- Assets/Animators/Placeholders/NPCSoldier/IdleStay.anim
+- Assets/Animators/Placeholders/NPCSoldier/WTakeDown.anim
+- Assets/Animators/WeaponRifle.controller
+- Assets/Animators/Placeholders/NPCSoldier/LookDownLeft.anim
+- Assets/Animators/Placeholders/Firearm/ReloadCycle.anim
+- Assets/Animators/Placeholders/NPCSoldier/LookRight.anim
+- Assets/Animators/Placeholders/NPCSoldier/CrouchWalk.anim
+- Assets/Animators/Placeholders/Firearm/ReloadStart.anim
+- Assets/Animators/WeaponShotgunOverride.overrideController
+- Assets/Animators/Placeholders/NPCSoldier/CrouchEnd.anim
+- Assets/Animators/Placeholders/Firearm/ReloadEnd.anim
+- Assets/Animators/Placeholders/NPCSoldier/Run.anim
+- Assets/Animators/Placeholders/NPCSoldier/LookDownRight.anim
+- Assets/Animators/LeftHandAnim.fbx
+- Assets/Animators/Placeholders/NPCSoldier/WalkLeft.anim
+- Assets/Animators/Placeholders/NPCSoldier/WalkFront.anim
+- Assets/Animators/Placeholders/NPCSoldier/WIdle.anim
+- Assets/Animators/Placeholders/NPCSoldier/WalkBack.anim
+- Assets/Animators/Placeholders/Firearm/IdleWalk.anim
+- Assets/Animators/Placeholders/NPCSoldier/WAttack.anim
+- Assets/Animators/Placeholders/Firearm/TakeDown.anim
+- Assets/Animators/Placeholders/NPCSoldier/WReload.anim
+Dependencies: []

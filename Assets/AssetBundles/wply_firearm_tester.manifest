@@ -1,0 +1,63 @@
+ManifestFileVersion: 0
+CRC: 3516618076
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a7641a33f099a80c06a16d0e6f6a3d2c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4a265940ae72a9ce518aaa174d59acdd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2ac30e376eb1a624da4b4bebd9b939e0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0fcbf1e77322aab4a90fe4d0f2fc4b47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 221
+  Script: {instanceID: 0}
+Assets:
+- Assets/WPLY_Firearm_Tester/PlayerAmmoDrop.prefab
+- Assets/WPLY_Firearm_Tester/Materials/Base_Body_diffuse.mat
+- Assets/WPLY_Firearm_Tester/PlayerMuzzleFlash.prefab
+- Assets/WPLY_Firearm_Tester/Weapon.fbx
+- Assets/WPLY_Firearm_Tester/PlayerWeapon.prefab
+- Assets/WPLY_Firearm_Tester/AmmoDrop.fbx
+- Assets/WPLY_Firearm_Tester/Materials/No Name.mat
+- Assets/WPLY_Firearm_Tester/Materials/unnamed.mat
+- Assets/WPLY_Firearm_Tester/Materials/Material.mat
+Dependencies:
+- G:/Other Stuff/Unity Projects/Purger/Assets/AssetBundles/animators

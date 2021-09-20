@@ -1,0 +1,61 @@
+ManifestFileVersion: 0
+CRC: 1125575158
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 691f0e8adbbcb031d011626b4c503f19
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bf53f752ef403003aa0e8c1ffe40d5a5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c41a4394402eacf44ba873ce9a8756ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0fcbf1e77322aab4a90fe4d0f2fc4b47, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/WNPC_Firearm_Tester/Materials/Base_Body_diffuse.mat
+- Assets/WNPC_Firearm_Tester/Materials/Material.mat
+- Assets/WNPC_Firearm_Tester/MuzzleFlash.prefab
+- Assets/WNPC_Firearm_Tester/Materials/None.mat
+- Assets/WNPC_Firearm_Tester/Weapon.obj
+- Assets/WNPC_Firearm_Tester/Materials/No Name.mat
+- Assets/WNPC_Firearm_Tester/Animation.fbx
+- Assets/WNPC_Firearm_Tester/AmmoDrop.fbx
+- Assets/WNPC_Firearm_Tester/NPCWeapon.prefab
+- Assets/WNPC_Firearm_Tester/Weapon.mtl
+- Assets/WNPC_Firearm_Tester/Materials/defaultMat.mat
+- Assets/WNPC_Firearm_Tester/MuzzleLight.prefab
+Dependencies: []

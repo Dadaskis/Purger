@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 1121546660
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: mainmenu
+      Dependencies: {}
+    Info_1:
+      Name: player
+      Dependencies: {}
+    Info_2:
+      Name: blockout
+      Dependencies: {}
+    Info_3:
+      Name: tools
+      Dependencies: {}
+    Info_4:
+      Name: hud
+      Dependencies: {}
+    Info_5:
+      Name: animators
+      Dependencies: {}
+    Info_6:
+      Name: npc_generic
+      Dependencies:
+        Dependency_0: animators
+    Info_7:
+      Name: wply_firearm_tester
+      Dependencies:
+        Dependency_0: animators
+    Info_8:
+      Name: wnpc_firearm_tester
+      Dependencies: {}
+    Info_9:
+      Name: wply_hands_generic
+      Dependencies: {}
+    Info_10:
+      Name: wply_hands_default
+      Dependencies: {}
+    Info_11:
+      Name: npc_tester
+      Dependencies:
+        Dependency_0: animators

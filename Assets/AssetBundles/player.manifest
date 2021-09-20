@@ -1,0 +1,109 @@
+ManifestFileVersion: 0
+CRC: 827841753
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1bd78e2a05a6f7f752cb4ccc779aae56
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fb063e347759f15745320856709f6294
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: eddc1660157a31048918f3aaadf59b2e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 35e818a068fa5a2418b802769eb4d5c6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4641b441033b8f74d9d701ccc68aa1d8, type: 3}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8ab23413686c6c74ba7b47d8a171a59d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e4ddc7a3f6d834241acdeb25d831bc8d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b7d99154a565f9845b5b4b6e7958634e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6789a9c607907cd4db8fe9b48d749bef, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0fcbf1e77322aab4a90fe4d0f2fc4b47, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cc94ce5ba77fa1d45ba7c6a0df113ba5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0f77a4cb93a1e6e4f8319aabbbf16e0e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4dde17cb57799f14faba92a5ebda79c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f560eaeb48bc75f4fb9bb774a496ae19, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1267147cf26a8364583670257f70324f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+Assets:
+- Assets/Player/PostProcessing/MuzzleFlash.shader
+- Assets/Player/WhiteBackground.png
+- Assets/Player/PostProcessing/Weapon.shader
+- Assets/Player/PostProcessing/MuzzleFlash.mat
+- Assets/Player/Player.prefab
+- Assets/Player/HitDecals/Generic.png
+- Assets/Player/HitDecals/Generic.mat
+- Assets/Player/AudioMixer.mixer
+- Assets/Player/Sound.prefab
+- Assets/Player/HitDecals/Generic.prefab
+- Assets/Player/PostProcessing/Weapon.renderTexture
+- Assets/Player/PostProcessing/MuzzleFlash.renderTexture
+- Assets/Player/InputData.asset
+- Assets/Player/PostProcessing/Weapon.mat
+Dependencies: []

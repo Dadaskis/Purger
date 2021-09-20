@@ -1,0 +1,60 @@
+ManifestFileVersion: 0
+CRC: 3150646909
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: efe1826e8ec42580fb83407b7fd640ee
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2b831a4aa66bb73ce068c466bdd239d5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8cd708e561e9dc14d84e9e54de5e2172, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5e41258ae89a32b4ba8b7dfe92ccf988, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 144
+  Script: {instanceID: 0}
+- Class: 221
+  Script: {instanceID: 0}
+Assets:
+- Assets/NPC_Tester/Materials/Specular.png
+- Assets/NPC_Tester/Materials/Tester_Eyewear_normal.png
+- Assets/NPC_Tester/Materials/Diffuse.png
+- Assets/NPC_Tester/Character.fbx
+- Assets/NPC_Tester/Materials/Body.mat
+- Assets/NPC_Tester/NPC.prefab
+- Assets/NPC_Tester/Materials/Tester_Eyewear_specular.png
+- Assets/NPC_Tester/Materials/Eyewear.mat
+- Assets/NPC_Tester/Materials/Normal.png
+- Assets/NPC_Tester/Materials/Tester_Eyewear_diffuse.png
+Dependencies:
+- G:/Other Stuff/Unity Projects/Purger/Assets/AssetBundles/animators

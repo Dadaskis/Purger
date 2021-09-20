@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 546923276
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 02e8a98414b48cc6d8b0133498d42c79
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6b791029df9e067e2f6c7c05fe3c7eaa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 54748fd29939e934b9f9c18fcd8ad870, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 357a4a94a2f5906448a32ee426ae5ca0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Tools/Ladder.prefab
+- Assets/Tools/PlayerSpawn.mat
+- Assets/Tools/Water.mat
+- Assets/Tools/PlayerSpawn.prefab
+Dependencies: []

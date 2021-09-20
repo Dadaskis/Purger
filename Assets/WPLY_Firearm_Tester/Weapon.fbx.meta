@@ -1,0 +1,1983 @@
+fileFormatVersion: 2
+guid: f6997b05989859a4ca1d03627827b354
+timeCreated: 1623520553
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_ref.l
+    100002: arm_ref.r
+    100004: Camera
+    100006: forearm_ref.l
+    100008: forearm_ref.r
+    100010: hand_ref.l
+    100012: hand_ref.l.IK
+    100014: hand_ref.l.IK_end
+    100016: hand_ref.r
+    100018: hand_ref.r.IK
+    100020: hand_ref.r.IK_end
+    100022: Hands
+    100024: head_ref.x
+    100026: head_ref.x_end
+    100028: HumanRig
+    100030: index1_base_ref.l
+    100032: index1_base_ref.r
+    100034: index1_ref.l
+    100036: index1_ref.r
+    100038: index2_ref.l
+    100040: index2_ref.r
+    100042: index3_ref.l
+    100044: index3_ref.l_end
+    100046: index3_ref.r
+    100048: index3_ref.r_end
+    100050: middle1_base_ref.l
+    100052: middle1_base_ref.r
+    100054: middle1_ref.l
+    100056: middle1_ref.r
+    100058: middle2_ref.l
+    100060: middle2_ref.r
+    100062: middle3_ref.l
+    100064: middle3_ref.l_end
+    100066: middle3_ref.r
+    100068: middle3_ref.r_end
+    100070: pinky1_base_ref.l
+    100072: pinky1_base_ref.r
+    100074: pinky1_ref.l
+    100076: pinky1_ref.r
+    100078: pinky2_ref.l
+    100080: pinky2_ref.r
+    100082: pinky3_ref.l
+    100084: pinky3_ref.l_end
+    100086: pinky3_ref.r
+    100088: pinky3_ref.r_end
+    100090: ring1_base_ref.l
+    100092: ring1_base_ref.r
+    100094: ring1_ref.l
+    100096: ring1_ref.r
+    100098: ring2_ref.l
+    100100: ring2_ref.r
+    100102: ring3_ref.l
+    100104: ring3_ref.l_end
+    100106: ring3_ref.r
+    100108: ring3_ref.r_end
+    100110: shoulder_ref.l
+    100112: shoulder_ref.r
+    100114: Sight
+    100116: thumb1_ref.l
+    100118: thumb1_ref.r
+    100120: thumb2_ref.l
+    100122: thumb2_ref.r
+    100124: thumb3_ref.l
+    100126: thumb3_ref.l_end
+    100128: thumb3_ref.r
+    100130: thumb3_ref.r_end
+    100132: toes_end_ref.l
+    100134: toes_end_ref.l_end
+    100136: toes_end_ref.r
+    100138: toes_end_ref.r_end
+    100140: Weapon
+    100142: //RootNode
+    100144: WeaponAmmoDrop
+    100146: WeaponAmmoDrop_end
+    100148: WeaponBolt
+    100150: WeaponBolt_end
+    100152: WeaponMag
+    100154: WeaponMag_end
+    100156: WeaponMain
+    100158: WeaponMain_end
+    100160: WeaponMuzzleFlashPos
+    100162: WeaponMuzzleFlashPos_end
+    400000: arm_ref.l
+    400002: arm_ref.r
+    400004: Camera
+    400006: forearm_ref.l
+    400008: forearm_ref.r
+    400010: hand_ref.l
+    400012: hand_ref.l.IK
+    400014: hand_ref.l.IK_end
+    400016: hand_ref.r
+    400018: hand_ref.r.IK
+    400020: hand_ref.r.IK_end
+    400022: Hands
+    400024: head_ref.x
+    400026: head_ref.x_end
+    400028: HumanRig
+    400030: index1_base_ref.l
+    400032: index1_base_ref.r
+    400034: index1_ref.l
+    400036: index1_ref.r
+    400038: index2_ref.l
+    400040: index2_ref.r
+    400042: index3_ref.l
+    400044: index3_ref.l_end
+    400046: index3_ref.r
+    400048: index3_ref.r_end
+    400050: middle1_base_ref.l
+    400052: middle1_base_ref.r
+    400054: middle1_ref.l
+    400056: middle1_ref.r
+    400058: middle2_ref.l
+    400060: middle2_ref.r
+    400062: middle3_ref.l
+    400064: middle3_ref.l_end
+    400066: middle3_ref.r
+    400068: middle3_ref.r_end
+    400070: pinky1_base_ref.l
+    400072: pinky1_base_ref.r
+    400074: pinky1_ref.l
+    400076: pinky1_ref.r
+    400078: pinky2_ref.l
+    400080: pinky2_ref.r
+    400082: pinky3_ref.l
+    400084: pinky3_ref.l_end
+    400086: pinky3_ref.r
+    400088: pinky3_ref.r_end
+    400090: ring1_base_ref.l
+    400092: ring1_base_ref.r
+    400094: ring1_ref.l
+    400096: ring1_ref.r
+    400098: ring2_ref.l
+    400100: ring2_ref.r
+    400102: ring3_ref.l
+    400104: ring3_ref.l_end
+    400106: ring3_ref.r
+    400108: ring3_ref.r_end
+    400110: shoulder_ref.l
+    400112: shoulder_ref.r
+    400114: Sight
+    400116: thumb1_ref.l
+    400118: thumb1_ref.r
+    400120: thumb2_ref.l
+    400122: thumb2_ref.r
+    400124: thumb3_ref.l
+    400126: thumb3_ref.l_end
+    400128: thumb3_ref.r
+    400130: thumb3_ref.r_end
+    400132: toes_end_ref.l
+    400134: toes_end_ref.l_end
+    400136: toes_end_ref.r
+    400138: toes_end_ref.r_end
+    400140: Weapon
+    400142: //RootNode
+    400144: WeaponAmmoDrop
+    400146: WeaponAmmoDrop_end
+    400148: WeaponBolt
+    400150: WeaponBolt_end
+    400152: WeaponMag
+    400154: WeaponMag_end
+    400156: WeaponMain
+    400158: WeaponMain_end
+    400160: WeaponMuzzleFlashPos
+    400162: WeaponMuzzleFlashPos_end
+    4300000: Hands
+    4300002: Weapon
+    7400000: HumanRig|Idle
+    7400002: HumanRig|IdleRun
+    7400004: HumanRig|IdleSight
+    7400006: HumanRig|IdleWalk
+    7400008: HumanRig|Reload
+    7400010: HumanRig|ReloadFull
+    7400012: HumanRig|Shoot
+    7400014: HumanRig|TakeDown
+    7400016: HumanRig|TakeUp
+    9500000: //RootNode
+    13700000: Hands
+    13700002: Weapon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: HumanRig|Idle
+      takeName: HumanRig|Idle
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hands
+        weight: 1
+      - path: HumanRig
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK/hand_ref.l.IK_end
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK/hand_ref.r.IK_end
+        weight: 1
+      - path: HumanRig/head_ref.x
+        weight: 1
+      - path: HumanRig/head_ref.x/head_ref.x_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l/index3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l/middle3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l/pinky3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l/ring3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l/thumb3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r/index3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r/middle3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r/pinky3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r/ring3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r/thumb3_ref.r_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.l
+        weight: 1
+      - path: HumanRig/toes_end_ref.l/toes_end_ref.l_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.r
+        weight: 1
+      - path: HumanRig/toes_end_ref.r/toes_end_ref.r_end
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop/WeaponAmmoDrop_end
+        weight: 1
+      - path: HumanRig/WeaponBolt
+        weight: 1
+      - path: HumanRig/WeaponBolt/WeaponBolt_end
+        weight: 1
+      - path: HumanRig/WeaponMag
+        weight: 1
+      - path: HumanRig/WeaponMag/WeaponMag_end
+        weight: 1
+      - path: HumanRig/WeaponMain
+        weight: 1
+      - path: HumanRig/WeaponMain/WeaponMain_end
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos/WeaponMuzzleFlashPos_end
+        weight: 1
+      - path: Sight
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HumanRig|IdleRun
+      takeName: HumanRig|IdleRun
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hands
+        weight: 1
+      - path: HumanRig
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK/hand_ref.l.IK_end
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK/hand_ref.r.IK_end
+        weight: 1
+      - path: HumanRig/head_ref.x
+        weight: 1
+      - path: HumanRig/head_ref.x/head_ref.x_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l/index3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l/middle3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l/pinky3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l/ring3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l/thumb3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r/index3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r/middle3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r/pinky3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r/ring3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r/thumb3_ref.r_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.l
+        weight: 1
+      - path: HumanRig/toes_end_ref.l/toes_end_ref.l_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.r
+        weight: 1
+      - path: HumanRig/toes_end_ref.r/toes_end_ref.r_end
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop/WeaponAmmoDrop_end
+        weight: 1
+      - path: HumanRig/WeaponBolt
+        weight: 1
+      - path: HumanRig/WeaponBolt/WeaponBolt_end
+        weight: 1
+      - path: HumanRig/WeaponMag
+        weight: 1
+      - path: HumanRig/WeaponMag/WeaponMag_end
+        weight: 1
+      - path: HumanRig/WeaponMain
+        weight: 1
+      - path: HumanRig/WeaponMain/WeaponMain_end
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos/WeaponMuzzleFlashPos_end
+        weight: 1
+      - path: Sight
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HumanRig|IdleSight
+      takeName: HumanRig|IdleSight
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hands
+        weight: 1
+      - path: HumanRig
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK/hand_ref.l.IK_end
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK/hand_ref.r.IK_end
+        weight: 1
+      - path: HumanRig/head_ref.x
+        weight: 1
+      - path: HumanRig/head_ref.x/head_ref.x_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l/index3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l/middle3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l/pinky3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l/ring3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l/thumb3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r/index3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r/middle3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r/pinky3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r/ring3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r/thumb3_ref.r_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.l
+        weight: 1
+      - path: HumanRig/toes_end_ref.l/toes_end_ref.l_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.r
+        weight: 1
+      - path: HumanRig/toes_end_ref.r/toes_end_ref.r_end
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop/WeaponAmmoDrop_end
+        weight: 1
+      - path: HumanRig/WeaponBolt
+        weight: 1
+      - path: HumanRig/WeaponBolt/WeaponBolt_end
+        weight: 1
+      - path: HumanRig/WeaponMag
+        weight: 1
+      - path: HumanRig/WeaponMag/WeaponMag_end
+        weight: 1
+      - path: HumanRig/WeaponMain
+        weight: 1
+      - path: HumanRig/WeaponMain/WeaponMain_end
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos/WeaponMuzzleFlashPos_end
+        weight: 1
+      - path: Sight
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HumanRig|IdleWalk
+      takeName: HumanRig|IdleWalk
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hands
+        weight: 1
+      - path: HumanRig
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK/hand_ref.l.IK_end
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK/hand_ref.r.IK_end
+        weight: 1
+      - path: HumanRig/head_ref.x
+        weight: 1
+      - path: HumanRig/head_ref.x/head_ref.x_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l/index3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l/middle3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l/pinky3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l/ring3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l/thumb3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r/index3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r/middle3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r/pinky3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r/ring3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r/thumb3_ref.r_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.l
+        weight: 1
+      - path: HumanRig/toes_end_ref.l/toes_end_ref.l_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.r
+        weight: 1
+      - path: HumanRig/toes_end_ref.r/toes_end_ref.r_end
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop/WeaponAmmoDrop_end
+        weight: 1
+      - path: HumanRig/WeaponBolt
+        weight: 1
+      - path: HumanRig/WeaponBolt/WeaponBolt_end
+        weight: 1
+      - path: HumanRig/WeaponMag
+        weight: 1
+      - path: HumanRig/WeaponMag/WeaponMag_end
+        weight: 1
+      - path: HumanRig/WeaponMain
+        weight: 1
+      - path: HumanRig/WeaponMain/WeaponMain_end
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos/WeaponMuzzleFlashPos_end
+        weight: 1
+      - path: Sight
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HumanRig|Reload
+      takeName: HumanRig|Reload
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hands
+        weight: 1
+      - path: HumanRig
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK/hand_ref.l.IK_end
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK/hand_ref.r.IK_end
+        weight: 1
+      - path: HumanRig/head_ref.x
+        weight: 1
+      - path: HumanRig/head_ref.x/head_ref.x_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l/index3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l/middle3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l/pinky3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l/ring3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l/thumb3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r/index3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r/middle3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r/pinky3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r/ring3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r/thumb3_ref.r_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.l
+        weight: 1
+      - path: HumanRig/toes_end_ref.l/toes_end_ref.l_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.r
+        weight: 1
+      - path: HumanRig/toes_end_ref.r/toes_end_ref.r_end
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop/WeaponAmmoDrop_end
+        weight: 1
+      - path: HumanRig/WeaponBolt
+        weight: 1
+      - path: HumanRig/WeaponBolt/WeaponBolt_end
+        weight: 1
+      - path: HumanRig/WeaponMag
+        weight: 1
+      - path: HumanRig/WeaponMag/WeaponMag_end
+        weight: 1
+      - path: HumanRig/WeaponMain
+        weight: 1
+      - path: HumanRig/WeaponMain/WeaponMain_end
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos/WeaponMuzzleFlashPos_end
+        weight: 1
+      - path: Sight
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HumanRig|ReloadFull
+      takeName: HumanRig|ReloadFull
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hands
+        weight: 1
+      - path: HumanRig
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK/hand_ref.l.IK_end
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK/hand_ref.r.IK_end
+        weight: 1
+      - path: HumanRig/head_ref.x
+        weight: 1
+      - path: HumanRig/head_ref.x/head_ref.x_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l/index3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l/middle3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l/pinky3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l/ring3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l/thumb3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r/index3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r/middle3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r/pinky3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r/ring3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r/thumb3_ref.r_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.l
+        weight: 1
+      - path: HumanRig/toes_end_ref.l/toes_end_ref.l_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.r
+        weight: 1
+      - path: HumanRig/toes_end_ref.r/toes_end_ref.r_end
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop/WeaponAmmoDrop_end
+        weight: 1
+      - path: HumanRig/WeaponBolt
+        weight: 1
+      - path: HumanRig/WeaponBolt/WeaponBolt_end
+        weight: 1
+      - path: HumanRig/WeaponMag
+        weight: 1
+      - path: HumanRig/WeaponMag/WeaponMag_end
+        weight: 1
+      - path: HumanRig/WeaponMain
+        weight: 1
+      - path: HumanRig/WeaponMain/WeaponMain_end
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos/WeaponMuzzleFlashPos_end
+        weight: 1
+      - path: Sight
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HumanRig|Shoot
+      takeName: HumanRig|Shoot
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hands
+        weight: 1
+      - path: HumanRig
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK/hand_ref.l.IK_end
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK/hand_ref.r.IK_end
+        weight: 1
+      - path: HumanRig/head_ref.x
+        weight: 1
+      - path: HumanRig/head_ref.x/head_ref.x_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l/index3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l/middle3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l/pinky3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l/ring3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l/thumb3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r/index3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r/middle3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r/pinky3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r/ring3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r/thumb3_ref.r_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.l
+        weight: 1
+      - path: HumanRig/toes_end_ref.l/toes_end_ref.l_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.r
+        weight: 1
+      - path: HumanRig/toes_end_ref.r/toes_end_ref.r_end
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop/WeaponAmmoDrop_end
+        weight: 1
+      - path: HumanRig/WeaponBolt
+        weight: 1
+      - path: HumanRig/WeaponBolt/WeaponBolt_end
+        weight: 1
+      - path: HumanRig/WeaponMag
+        weight: 1
+      - path: HumanRig/WeaponMag/WeaponMag_end
+        weight: 1
+      - path: HumanRig/WeaponMain
+        weight: 1
+      - path: HumanRig/WeaponMain/WeaponMain_end
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos/WeaponMuzzleFlashPos_end
+        weight: 1
+      - path: Sight
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HumanRig|TakeDown
+      takeName: HumanRig|TakeDown
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hands
+        weight: 1
+      - path: HumanRig
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK/hand_ref.l.IK_end
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK/hand_ref.r.IK_end
+        weight: 1
+      - path: HumanRig/head_ref.x
+        weight: 1
+      - path: HumanRig/head_ref.x/head_ref.x_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l/index3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l/middle3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l/pinky3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l/ring3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l/thumb3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r/index3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r/middle3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r/pinky3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r/ring3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r/thumb3_ref.r_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.l
+        weight: 1
+      - path: HumanRig/toes_end_ref.l/toes_end_ref.l_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.r
+        weight: 1
+      - path: HumanRig/toes_end_ref.r/toes_end_ref.r_end
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop/WeaponAmmoDrop_end
+        weight: 1
+      - path: HumanRig/WeaponBolt
+        weight: 1
+      - path: HumanRig/WeaponBolt/WeaponBolt_end
+        weight: 1
+      - path: HumanRig/WeaponMag
+        weight: 1
+      - path: HumanRig/WeaponMag/WeaponMag_end
+        weight: 1
+      - path: HumanRig/WeaponMain
+        weight: 1
+      - path: HumanRig/WeaponMain/WeaponMain_end
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos/WeaponMuzzleFlashPos_end
+        weight: 1
+      - path: Sight
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HumanRig|TakeUp
+      takeName: HumanRig|TakeUp
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Hands
+        weight: 1
+      - path: HumanRig
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK
+        weight: 1
+      - path: HumanRig/hand_ref.l.IK/hand_ref.l.IK_end
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK
+        weight: 1
+      - path: HumanRig/hand_ref.r.IK/hand_ref.r.IK_end
+        weight: 1
+      - path: HumanRig/head_ref.x
+        weight: 1
+      - path: HumanRig/head_ref.x/head_ref.x_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/index1_base_ref.l/index1_ref.l/index2_ref.l/index3_ref.l/index3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/middle1_base_ref.l/middle1_ref.l/middle2_ref.l/middle3_ref.l/middle3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/pinky1_base_ref.l/pinky1_ref.l/pinky2_ref.l/pinky3_ref.l/pinky3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/ring1_base_ref.l/ring1_ref.l/ring2_ref.l/ring3_ref.l/ring3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l
+        weight: 1
+      - path: HumanRig/shoulder_ref.l/arm_ref.l/forearm_ref.l/hand_ref.l/thumb1_ref.l/thumb2_ref.l/thumb3_ref.l/thumb3_ref.l_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/index1_base_ref.r/index1_ref.r/index2_ref.r/index3_ref.r/index3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/middle1_base_ref.r/middle1_ref.r/middle2_ref.r/middle3_ref.r/middle3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/pinky1_base_ref.r/pinky1_ref.r/pinky2_ref.r/pinky3_ref.r/pinky3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/ring1_base_ref.r/ring1_ref.r/ring2_ref.r/ring3_ref.r/ring3_ref.r_end
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r
+        weight: 1
+      - path: HumanRig/shoulder_ref.r/arm_ref.r/forearm_ref.r/hand_ref.r/thumb1_ref.r/thumb2_ref.r/thumb3_ref.r/thumb3_ref.r_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.l
+        weight: 1
+      - path: HumanRig/toes_end_ref.l/toes_end_ref.l_end
+        weight: 1
+      - path: HumanRig/toes_end_ref.r
+        weight: 1
+      - path: HumanRig/toes_end_ref.r/toes_end_ref.r_end
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop
+        weight: 1
+      - path: HumanRig/WeaponAmmoDrop/WeaponAmmoDrop_end
+        weight: 1
+      - path: HumanRig/WeaponBolt
+        weight: 1
+      - path: HumanRig/WeaponBolt/WeaponBolt_end
+        weight: 1
+      - path: HumanRig/WeaponMag
+        weight: 1
+      - path: HumanRig/WeaponMag/WeaponMag_end
+        weight: 1
+      - path: HumanRig/WeaponMain
+        weight: 1
+      - path: HumanRig/WeaponMain/WeaponMain_end
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos
+        weight: 1
+      - path: HumanRig/WeaponMuzzleFlashPos/WeaponMuzzleFlashPos_end
+        weight: 1
+      - path: Sight
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

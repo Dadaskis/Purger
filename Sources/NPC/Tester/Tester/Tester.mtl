@@ -1,0 +1,86 @@
+# Exported from Fuse 1.3.0
+
+newmtl Eyewear
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd Tester_Eyewear_diffuse.png
+map_Ks Tester_Eyewear_specular.png
+bump Tester_Eyewear_normal.png
+map_Ns Tester_Eyewear_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd Tester_Bottom_diffuse.png
+map_Ks Tester_Bottom_specular.png
+bump Tester_Bottom_normal.png
+map_Ns Tester_Bottom_gloss.png
+
+newmtl Glove
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd Tester_Glove_diffuse.png
+map_Ks Tester_Glove_specular.png
+bump Tester_Glove_normal.png
+map_Ns Tester_Glove_gloss.png
+
+newmtl Hat
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd Tester_Hat_diffuse.png
+map_Ks Tester_Hat_specular.png
+bump Tester_Hat_normal.png
+map_Ns Tester_Hat_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd Tester_Shoes_diffuse.png
+map_Ks Tester_Shoes_specular.png
+bump Tester_Shoes_normal.png
+map_Ns Tester_Shoes_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd Tester_Body_diffuse.png
+map_Ks Tester_Body_specular.png
+bump Tester_Body_normal.png
+map_Ns Tester_Body_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd Tester_Top_diffuse.png
+map_Ks Tester_Top_specular.png
+bump Tester_Top_normal.png
+map_Ns Tester_Top_gloss.png
+

@@ -1,0 +1,69 @@
+ManifestFileVersion: 0
+CRC: 2959518450
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d4ee8d5137d530c2d228a8170aa10e5c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bd6fa4f44868c0e191ff0c38c7042960
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c10eb4a27f5e7444b95b3fb8d0f2e4d9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 42d4cbd4cadb34e489090d0d19178e99, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 92b989352acd38b4aad37647d3656829, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e7236385646e9064b9edbc80333bc108, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9bc5154a0caf2ee4fbb43954f3f8dcac, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 42dc51bbcb2bdef49a44c0c47bef1057, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c26b12c292989f40a8fc5672fae1062, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: edcc868cd58e1ba4d81dc9408d5d6d97, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 98981dbdafddf8c4480ee0d266789945, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/HUD/Water.png
+- Assets/HUD/TargetsInfo.prefab
+- Assets/HUD/Background0.png
+- Assets/HUD/Gradient0.png
+- Assets/HUD/HealthArmorAmmoData.prefab
+- Assets/HUD/TargetInfo.prefab
+- Assets/HUD/TimerData.prefab
+- Assets/HUD/OxygenData.prefab
+- Assets/HUD/Crosshair.prefab
+- Assets/HUD/HealthArmorMask.png
+- Assets/HUD/HealthData.prefab
+- Assets/HUD/HUD.prefab
+Dependencies: []

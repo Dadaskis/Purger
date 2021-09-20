@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1703043849
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a4f772dedfefb09235c4bf168e4e8b67
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7cd000973af5914c762d9e9e02a9a3ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/WPLY_Hands_Generic/Materials/Base_Body_diffuse.mat
+- Assets/WPLY_Hands_Generic/Materials/Material.mat
+- Assets/WPLY_Hands_Generic/HandsMesh.fbx
+Dependencies: []

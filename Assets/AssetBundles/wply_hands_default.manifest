@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1699470398
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8b80ff996148ff6e81a67dabf29ea9db
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 56384b5a01d1bcb6998cd57876061307
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/WPLY_Hands_Default/Materials/Normal.png
+- Assets/WPLY_Hands_Default/Materials/Hands.mat
+- Assets/WPLY_Hands_Default/HandsMesh.fbx
+- Assets/WPLY_Hands_Default/Materials/Specular.png
+- Assets/WPLY_Hands_Default/Materials/Albedo.png
+Dependencies: []

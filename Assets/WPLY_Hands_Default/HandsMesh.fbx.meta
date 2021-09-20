@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: fa56fbd851f94f7459b5a8f2d112c6f2
+timeCreated: 1623522408
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_ref.l
+    100002: arm_ref.r
+    100004: Camera
+    100006: forearm_ref.l
+    100008: forearm_ref.r
+    100010: hand_ref.l
+    100012: hand_ref.l.IK
+    100014: hand_ref.l.IK_end
+    100016: hand_ref.r
+    100018: hand_ref.r.IK
+    100020: hand_ref.r.IK_end
+    100022: Hands
+    100024: //RootNode
+    100026: head_ref.x
+    100028: head_ref.x_end
+    100030: HumanRig
+    100032: index1_base_ref.l
+    100034: index1_base_ref.r
+    100036: index1_ref.l
+    100038: index1_ref.r
+    100040: index2_ref.l
+    100042: index2_ref.r
+    100044: index3_ref.l
+    100046: index3_ref.l_end
+    100048: index3_ref.r
+    100050: index3_ref.r_end
+    100052: middle1_base_ref.l
+    100054: middle1_base_ref.r
+    100056: middle1_ref.l
+    100058: middle1_ref.r
+    100060: middle2_ref.l
+    100062: middle2_ref.r
+    100064: middle3_ref.l
+    100066: middle3_ref.l_end
+    100068: middle3_ref.r
+    100070: middle3_ref.r_end
+    100072: pinky1_base_ref.l
+    100074: pinky1_base_ref.r
+    100076: pinky1_ref.l
+    100078: pinky1_ref.r
+    100080: pinky2_ref.l
+    100082: pinky2_ref.r
+    100084: pinky3_ref.l
+    100086: pinky3_ref.l_end
+    100088: pinky3_ref.r
+    100090: pinky3_ref.r_end
+    100092: ring1_base_ref.l
+    100094: ring1_base_ref.r
+    100096: ring1_ref.l
+    100098: ring1_ref.r
+    100100: ring2_ref.l
+    100102: ring2_ref.r
+    100104: ring3_ref.l
+    100106: ring3_ref.l_end
+    100108: ring3_ref.r
+    100110: ring3_ref.r_end
+    100112: shoulder_ref.l
+    100114: shoulder_ref.r
+    100116: thumb1_ref.l
+    100118: thumb1_ref.r
+    100120: thumb2_ref.l
+    100122: thumb2_ref.r
+    100124: thumb3_ref.l
+    100126: thumb3_ref.l_end
+    100128: thumb3_ref.r
+    100130: thumb3_ref.r_end
+    100132: toes_end_ref.l
+    100134: toes_end_ref.l_end
+    100136: toes_end_ref.r
+    100138: toes_end_ref.r_end
+    400000: arm_ref.l
+    400002: arm_ref.r
+    400004: Camera
+    400006: forearm_ref.l
+    400008: forearm_ref.r
+    400010: hand_ref.l
+    400012: hand_ref.l.IK
+    400014: hand_ref.l.IK_end
+    400016: hand_ref.r
+    400018: hand_ref.r.IK
+    400020: hand_ref.r.IK_end
+    400022: Hands
+    400024: //RootNode
+    400026: head_ref.x
+    400028: head_ref.x_end
+    400030: HumanRig
+    400032: index1_base_ref.l
+    400034: index1_base_ref.r
+    400036: index1_ref.l
+    400038: index1_ref.r
+    400040: index2_ref.l
+    400042: index2_ref.r
+    400044: index3_ref.l
+    400046: index3_ref.l_end
+    400048: index3_ref.r
+    400050: index3_ref.r_end
+    400052: middle1_base_ref.l
+    400054: middle1_base_ref.r
+    400056: middle1_ref.l
+    400058: middle1_ref.r
+    400060: middle2_ref.l
+    400062: middle2_ref.r
+    400064: middle3_ref.l
+    400066: middle3_ref.l_end
+    400068: middle3_ref.r
+    400070: middle3_ref.r_end
+    400072: pinky1_base_ref.l
+    400074: pinky1_base_ref.r
+    400076: pinky1_ref.l
+    400078: pinky1_ref.r
+    400080: pinky2_ref.l
+    400082: pinky2_ref.r
+    400084: pinky3_ref.l
+    400086: pinky3_ref.l_end
+    400088: pinky3_ref.r
+    400090: pinky3_ref.r_end
+    400092: ring1_base_ref.l
+    400094: ring1_base_ref.r
+    400096: ring1_ref.l
+    400098: ring1_ref.r
+    400100: ring2_ref.l
+    400102: ring2_ref.r
+    400104: ring3_ref.l
+    400106: ring3_ref.l_end
+    400108: ring3_ref.r
+    400110: ring3_ref.r_end
+    400112: shoulder_ref.l
+    400114: shoulder_ref.r
+    400116: thumb1_ref.l
+    400118: thumb1_ref.r
+    400120: thumb2_ref.l
+    400122: thumb2_ref.r
+    400124: thumb3_ref.l
+    400126: thumb3_ref.l_end
+    400128: thumb3_ref.r
+    400130: thumb3_ref.r_end
+    400132: toes_end_ref.l
+    400134: toes_end_ref.l_end
+    400136: toes_end_ref.r
+    400138: toes_end_ref.r_end
+    4300000: Hands
+    9500000: //RootNode
+    13700000: Hands
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
