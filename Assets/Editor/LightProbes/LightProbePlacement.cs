@@ -2,6 +2,7 @@
 using UnityEditor;
 using System.Collections.Generic;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class LightProbePlacement : EditorWindow {
 
@@ -21,18 +22,18 @@ public class LightProbePlacement : EditorWindow {
 	void PlaceProbes () {
 		GameObject probe = probeObject;
 		if(probe != null) {
-			LightProbeGroup p = probe.GetComponent<LightProbeGroup>();
+			LightProbeGroup p = probe.GetComponent<LightProbeGroup>();//FindObjectOfType<LightProbeGroup>();//
 
 			if(p != null) {
+
+				//p.gameObject.transform.position = Vector3.zero;
+				probe.transform.position = Vector3.zero;
 					
 				working = true;
 
 				progress = 0.0f;
 				current = "Triangulating navmesh...";
 				EditorUtility.DisplayProgressBar ("Generating probes", current, progress);
-
-
-				probe.transform.position = Vector3.zero;
 
 				UnityEngine.AI.NavMeshTriangulation navMesh = UnityEngine.AI.NavMesh.CalculateTriangulation ();
 
@@ -94,6 +95,50 @@ public class LightProbePlacement : EditorWindow {
 
 				current = "Final steps...";
 				EditorUtility.DisplayProgressBar ("Generating probes", current, progress);
+
+				//Renderer[] renderers = FindObjectsOfType<Renderer> ();
+				//Bounds bounds = renderers [0].bounds;
+				//foreach (Renderer renderer in renderers) {
+				//	bounds.Encapsulate (renderer.bounds);
+				//}
+
+				//float density = 0.5f;
+				//Debug.Log (bounds);
+				//for (float X = bounds.min.x; X < bounds.max.x; X += density) {
+				//	for (float Y = bounds.min.y; Y < bounds.max.y; Y += density) {
+				//		for (float Z = bounds.min.z; Z < bounds.max.z; Z += density) {
+				//			mergedProbes.Add (new Vector3 (X, Y, Z));
+				//		}
+				//	}
+				//}
+
+				List<Vector3> dirs = new List<Vector3> ();
+				dirs.Add (new Vector3 (1.0f, 0.0f, 0.0f));
+				dirs.Add (new Vector3 (-1.0f, 0.0f, 0.0f));
+				dirs.Add (new Vector3 (0.0f, 1.0f, 0.0f));
+				dirs.Add (new Vector3 (0.0f, -1.0f, 0.0f));
+				dirs.Add (new Vector3 (0.0f, 0.0f, 1.0f));
+				dirs.Add (new Vector3 (0.0f, 0.0f, -1.0f));
+				List<Vector3> addProbes = new List<Vector3> ();
+				foreach (Vector3 pos in mergedProbes) {
+					foreach (Vector3 dir in dirs) {
+						RaycastHit hit;
+						if (Physics.Raycast (pos, dir, out hit)) {
+							Vector3 endPos = hit.point + (hit.normal * 0.5f);
+							Vector3 dirStep = endPos - pos; 
+							dirStep = dirStep.normalized * 0.95f;
+							int limit = Mathf.RoundToInt(Vector3.Distance (pos, endPos));
+							Vector3 curPos = pos + dirStep;
+							for (int counter = 0; counter < limit; counter++) {
+								addProbes.Add (curPos);
+								curPos += dirStep;
+							}
+							addProbes.Add (endPos);
+						}
+					}
+				}
+				//Debug.Log (addProbes.Count);
+				mergedProbes.AddRange (addProbes);
 				
 				p.probePositions = mergedProbes.ToArray ();
 				EditorUtility.DisplayProgressBar ("Generating probes", current, progress);
