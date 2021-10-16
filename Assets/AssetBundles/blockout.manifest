@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3118901507
+CRC: 49023912
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: de5e6fa9aca3781e9e51484f403d41ae
+    Hash: e2262e4cdefce9d0e47deec32145a58b
   TypeTreeHash:
     serializedVersion: 2
     Hash: d1ae6e26fb0b4d11fccd18da598542fa
@@ -19,6 +19,8 @@ Assets:
 - Assets/Blockout/SolidColor.mat
 - Assets/Blockout/white.tga
 - Assets/Blockout/GrayboxClear.mat
+- Assets/Blockout/GrayboxStandard.mat
 - Assets/Blockout/Graybox.mat
+- Assets/Blockout/concrete 17_NRM.png
 - Assets/Blockout/grid4m.tga
 Dependencies: []

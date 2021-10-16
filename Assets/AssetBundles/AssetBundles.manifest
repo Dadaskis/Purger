@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1121546660
+CRC: 499098823
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -41,3 +41,6 @@ AssetBundleManifest:
       Name: npc_tester
       Dependencies:
         Dependency_0: animators
+    Info_12:
+      Name: animationtexture
+      Dependencies: {}

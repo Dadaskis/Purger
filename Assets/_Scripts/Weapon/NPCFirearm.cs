@@ -20,13 +20,19 @@ public class NPCFirearm : MonoBehaviour {
 	private GameObject muzzlePrefab;
 	private GameObject ammoDropPrefab;
 
+	private static Dictionary<string, AssetBundle> assetBundles = new Dictionary<string, AssetBundle> ();
+
 	private float timer = 0.0f;
 
 	void Start() {
 		muzzlePos = transform.Find ("MuzzlePos");
 		ammoDropPos = transform.Find ("AmmoDropPos");
 
-		AssetBundle bundle = AssetBundle.LoadFromFile (Path.Combine (Application.dataPath, "AssetBundles/" + assetBundle));
+		AssetBundle bundle;
+		if (!assetBundles.TryGetValue (assetBundle, out bundle)) {
+			bundle = AssetBundle.LoadFromFile (Path.Combine (Application.dataPath, "AssetBundles/" + assetBundle));
+			assetBundles [assetBundle] = bundle;
+		}
 
 		if (muzzlePos != null) {
 			muzzlePrefab = bundle.LoadAsset<GameObject> ("MuzzleFlash");
@@ -36,7 +42,7 @@ public class NPCFirearm : MonoBehaviour {
 			ammoDropPrefab = bundle.LoadAsset<GameObject> ("AmmoDrop");
 		}
 
-		bundle.Unload (false);
+		//bundle.Unload (false);
 	}
 
 	IEnumerator Shoot() {

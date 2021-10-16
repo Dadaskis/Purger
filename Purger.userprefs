@@ -1,16 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Character\CharacterPart.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Player\MaterialManager.cs">
     <Files>
-      <File FileName="Assets\_Scripts\NPC\NPCSoldier.cs" Line="21" Column="47" />
-      <File FileName="Assets\_Scripts\NPC\NPCSoldierLogic.cs" Line="18" Column="41" />
-      <File FileName="Assets\_Scripts\Weapon\NPCFirearm.cs" Line="53" Column="41" />
+      <File FileName="Assets\_Scripts\NPC\NPCSoldier.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\NPC\NPCSoldierLogic.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Weapon\NPCFirearm.cs" Line="31" Column="3" />
+      <File FileName="Assets\_Scripts\Tools\NPCSpawn.cs" Line="35" Column="5" />
       <File FileName="..\Escaper\Assets\NonLoadedAssets\Scripts\HumanoidCharacter.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\Character\Character.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\Player\Player.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\Weapon\Firearm.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\Player\WeaponManager.cs" Line="48" Column="104" />
+      <File FileName="Assets\_Scripts\Player\WeaponManager.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\Character\CharacterPart.cs" Line="23" Column="79" />
+      <File FileName="Assets\MeshAnimator\Example\Scripts\CrowdSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Player\MaterialManager.cs" Line="68" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -12,6 +12,8 @@ public class NPCSpawn : MonoBehaviour {
 	public string assetBundle = "";
 	public string weaponAssetBundle = "";
 
+	private static Dictionary<string, AssetBundle> assetBundles = new Dictionary<string, AssetBundle> ();
+
 	public void Spawn () {
 		//AssetBundle.LoadFromFile (Path.Combine (Application.dataPath, "AssetBundles/animators"));
 		if (WeaponManager.instance == null) {
@@ -19,14 +21,18 @@ public class NPCSpawn : MonoBehaviour {
 			weaponManager.Start ();
 		}
 		AnimatorsLoader.Load();
-		AssetBundle bundle = AssetBundle.LoadFromFile (Path.Combine (Application.dataPath, "AssetBundles/" + assetBundle));
+		AssetBundle bundle;
+		if (!assetBundles.TryGetValue (assetBundle, out bundle)) {
+			bundle = AssetBundle.LoadFromFile (Path.Combine (Application.dataPath, "AssetBundles/" + assetBundle));
+			assetBundles [assetBundle] = bundle;
+		}
 		GameObject prefab = bundle.LoadAsset<GameObject> ("NPC");
 		GameObject npc = Instantiate (prefab);
 		npc.name = assetBundle;
 		npc.transform.position = transform.position;
 		npc.transform.localRotation = transform.localRotation;
 		npc.transform.localScale = new Vector3 (0.9f, 0.9f, 0.9f);
-		bundle.Unload (false);
+		//bundle.Unload (false);
 		StartCoroutine (GiveWeapon (npc));
 	}
 
